@@ -1,0 +1,18 @@
+1.How to create object in java?
+--> Using new keyword.
+Using new instance.
+Using clone() method.
+Using deserialization.
+Using newInstance() method of Constructor class.
+
+2.What is the use of new keyword in java ?
+--> The new keyword in Java is used to create an instance of a class, also known as an object. The new keyword in Java is used to allocate memory for the object on the heap, the memory space where objects are stored.
+
+3.What is diffrence between local and instance variable ?
+--> An instance variable is a variable that is declared in a class but outside a method while the local variable is a variable declared within a method or a constructor. Thus, this is the main difference between instance variable and local variable.
+
+4.In which area memory is allocated for local and instance variable ?
+--> Stack is a memory place where the methods and the local variables are stored.Heap is a memory place where the objects and its instance variable are stored.
+
+5.What is method overloading ?
+--> Method overloading in java is a feature that allows a class to have more than one method with the same name, but with different parameters. Java supports method overloading through two mechanisms: By changing the number of parameters.
