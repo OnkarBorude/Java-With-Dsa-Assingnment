@@ -1,0 +1,41 @@
+1.What is the default value of array for diffrent data types ?
+--> int=0
+short=0
+float=0.0
+long=0
+
+2.can you pass negative number in array size ?
+--> No
+
+3.Where does array stored in JVM memory?
+--> In Heap memory Array is stored.
+
+4.What are the advantages of array?
+-->1.Easy to use
+Arrays are the simplest form of data structures and are easy to use. They allow us to store and access elements in a contiguous memory block.
+2.Random access
+Arrays allow us to access elements via their index randomly. This makes finding and retrieving data from an array much easier than with other data structures, such as linked lists or trees.
+3.Flexibility
+Arrays in Java offer a high level of flexibility when organizing data. Arrays can store any data, making them useful for storing and sorting large amounts of information. Also, arrays are dynamic, meaning their size can change at runtime. This allows programmers to easily add or remove elements from an array without altering the underlying code structure. As a result, developers have more freedom and control over how they use and manage their data sets.
+4.Performance
+The performance of array is very good as it allows random access to the elements. As the elements are continuous blocks in memory, searching an element can be done in constant time O(1) using index.
+
+5.What is anonymous array in java? give example?
+--> Anonymous arrays in Java is an Array without any name, just like Anonymous inner classes and policy of using Anonymous array is just create, initialize and use it, Since it doesn't have any name you can not reuse it.
+Eg= {1,2,3,4};
+
+
+6.what are diffrent ways to traverse in java?
+-->using itertor,loop,for loop,foreach loop,hashset,hashmap.
+
+7.what is diffrence between lenth and length() method in java give an example?
+--> The Java length method is used with the array class. The Java length property returns the size of an array. The Java length method returns the number of characters in a text String.
+eg= length
+int[] simpleArray = {1,2,3,4,5};
+int simpleArraySize = simpleArray.length;
+
+length()
+String simpleString = "Length example";
+int listSize = simpleString.length();
+
+
